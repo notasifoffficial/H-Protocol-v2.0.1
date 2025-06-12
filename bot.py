@@ -142,7 +142,7 @@ def countdown(seconds, on_finish):
         sys.exit(0)
 
 def start_round():
-    console.print(f"\n[bold green]🚀 Accounts total : {len(TOKENS)} akun...[/bold green]")
+    console.print(f"\n[bold green]🚀 Accounts total : {len(TOKENS)} accounts...[/bold green]")
     for i, token in enumerate(TOKENS):
         process_token(token, i)
     console.print("[bold green]✅ Claim done, next claim waiting 24 hours...[/bold green]")
